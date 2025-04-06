@@ -50,4 +50,10 @@ public class UserServiceImpl implements UserService {
 
         return new UserLoginResponseDto(token);
     }
+
+    @Override
+    public User getUserInfo() {
+
+        return null;
+    }
 }
